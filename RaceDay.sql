@@ -145,6 +145,7 @@ INSERT INTO Categories ( EventID, categoryName, MaxParticipants, entryFee ) VALU
 (3, '10 KM Fun Run', 1000, 120.00),
 (3, '5 KM Fun Run', 1500, 80.00);
 
+--viewing table categories
 select * from [categories];
 
 --inserting values into eventenrolment
