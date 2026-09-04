@@ -118,6 +118,7 @@ INSERT INTO Users ( RoleID, FirstName, LastName, Email, PasswordHash, Phone ) VA
 ( 2, 'Trevor', 'Nemutanzhela', 'trevor@raceday.com', 'HASHED_PASSWORD_003', '0733333333' ),
 ( 2, 'Sipho', 'Dlamini', 'sipho@raceday.com', 'HASHED_PASSWORD_004', '0744444444' );
 
+--viewing table users
 select * from [Users];
 
 --INSERTING VALUES INTO EVENTS
