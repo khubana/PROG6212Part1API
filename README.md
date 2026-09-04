@@ -239,7 +239,7 @@ The video will explain:
 ⦁	Running the SQL script in SSMS.
 ⦁	The successful database queries.
 ⦁	The GitHub repository and CI/CD workflow.
-YouTube Link
+YouTube Link[https://youtu.be/9cuS2KCQqs8]
   
 
 15. Conclusion
