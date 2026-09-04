@@ -1,3 +1,4 @@
+--creating a database--
 create  database RaceDay;
 
 use [RaceDay];
