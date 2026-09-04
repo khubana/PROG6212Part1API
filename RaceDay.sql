@@ -103,7 +103,7 @@ constraint ck_Results_Score check (score is null or score >=0)
 --viewing table results
 select * from [Results];
 
---INSETING VALUES IN ROLES
+--INSETING VALUES IN ROLES.
 INSERT INTO Roles (RoleName) VALUES 
 ('Organiser'),
 ('Participant');
