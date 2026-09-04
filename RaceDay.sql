@@ -65,6 +65,7 @@ constraint ck_categories_MaxParticipants check(MaxParticipants >= 10),
 constraint ck_categories_entryFee check(entryFee >=50)
 );
 
+--viewing table categories
 select * from [categories];
 
 --creating table Event Enrolment
