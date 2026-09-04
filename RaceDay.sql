@@ -86,7 +86,7 @@ constraint ck_EventEnrolment_status check (status in('Active','Cancelled','Compl
 --viewing table eventenrolment
 select * from [EventEnrolment];
 
---creating table results
+--creating table results.
 create table Results(
 ResultID int primary key identity(1,1) not null,
 enrolmentID int not null,
