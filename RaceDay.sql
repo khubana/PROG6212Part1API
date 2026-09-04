@@ -68,7 +68,7 @@ constraint ck_categories_entryFee check(entryFee >=50)
 --viewing table categories
 select * from [categories];
 
---creating table Event Enrolment
+--creating table Event Enrolment.
 create table EventEnrolment(
 enrolmentID int primary key identity(1,1) not null,
 EventID int not null ,
