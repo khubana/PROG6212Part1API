@@ -121,7 +121,7 @@ INSERT INTO Users ( RoleID, FirstName, LastName, Email, PasswordHash, Phone ) VA
 --viewing table users
 select * from [Users];
 
---INSERTING VALUES INTO EVENTS
+--INSERTING VALUES INTO EVENTS.
 INSERT INTO Events ( OrganiserID, eventName, eventDescription, eventDate, eventLocation, eventStatus ) VALUES
 ( 1, 'Johannesburg City Marathon', 'Annual marathon event for professional and recreational runners.', '2026-10-18', 'Johannesburg, Gauteng', 'Open' ),
 ( 1, 'Limpopo Trail Challenge', 'Outdoor trail running competition through scenic Limpopo routes.', '2026-11-07', 'Polokwane, Limpopo', 'Open' ), 
