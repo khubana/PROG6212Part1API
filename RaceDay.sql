@@ -14,7 +14,7 @@ constraint uQ_Role_RoleName unique(RoleName)
 --viewing inside role table
 select * from [Roles];
 
---creating table users
+--creating table users.
 create table Users(
 UserID int primary key identity(1,1) not null ,
 RoleID int not null,
