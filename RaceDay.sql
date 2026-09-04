@@ -108,6 +108,7 @@ INSERT INTO Roles (RoleName) VALUES
 ('Organiser'),
 ('Participant');
 
+--viewing table roles
 select * from [Roles];
 
 --INSERTING VALUES IN USERS
