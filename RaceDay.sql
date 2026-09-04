@@ -52,7 +52,7 @@ check (eventDate >= '2026-10-05')
 --viewing table events
 select * from [Events];
 
---creating table categories
+--creating table categories.
 create table categories(
 categoryID int primary key identity(1,1) not null,
 EventID int not null,
