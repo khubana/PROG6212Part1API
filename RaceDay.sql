@@ -4,7 +4,7 @@ create  database RaceDay;
 --using a database
 use [RaceDay];
 
---creating table Roles
+--creating table Roles.
 create table Roles(
 RoleID int primary key identity(1,1),
 RoleName varchar(100) not null,
