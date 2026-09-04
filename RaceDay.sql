@@ -148,7 +148,7 @@ INSERT INTO Categories ( EventID, categoryName, MaxParticipants, entryFee ) VALU
 --viewing table categories
 select * from [categories];
 
---inserting values into eventenrolment
+--inserting values into eventenrolment.
 INSERT INTO EventEnrolment ( EventID, partcipantsID, CategoryID, Status ) VALUES 
 (1, 3, 1, 'Active'),
 (1, 4, 2, 'Active'), 
