@@ -28,6 +28,7 @@ constraint uq_users_email unique(Email),
 foreign key(RoleID) references Roles(RoleID)
 );
 
+--viewing inside table users
 select * from [Users];
 
 --create table Events--
