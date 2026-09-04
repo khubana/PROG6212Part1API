@@ -111,7 +111,7 @@ INSERT INTO Roles (RoleName) VALUES
 --viewing table roles
 select * from [Roles];
 
---INSERTING VALUES IN USERS
+--INSERTING VALUES IN USERS.
 INSERT INTO Users ( RoleID, FirstName, LastName, Email, PasswordHash, Phone ) VALUES
 ( 1, 'Thabo', 'Mokoena', 'thabo@raceday.co.za', 'HASHED_PASSWORD_001', '0711111111' ), 
 ( 1, 'Lerato', 'Ndlovu', 'lerato@raceday.co.za', 'HASHED_PASSWORD_002', '0722222222' ),
