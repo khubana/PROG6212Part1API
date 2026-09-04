@@ -127,6 +127,7 @@ INSERT INTO Events ( OrganiserID, eventName, eventDescription, eventDate, eventL
 ( 1, 'Limpopo Trail Challenge', 'Outdoor trail running competition through scenic Limpopo routes.', '2026-11-07', 'Polokwane, Limpopo', 'Open' ), 
 ( 2, 'Pretoria Fun Run', 'Community-focused running event suitable for participants of different ages.', '2026-12-05', 'Pretoria, Gauteng', 'Open' );
 
+--viewing from table events
 select * from [Events];
 
 --inserting values into categories
