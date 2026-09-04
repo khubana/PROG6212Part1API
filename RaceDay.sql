@@ -130,7 +130,7 @@ INSERT INTO Events ( OrganiserID, eventName, eventDescription, eventDate, eventL
 --viewing from table events
 select * from [Events];
 
---inserting values into categories
+--inserting values into categories.
 INSERT INTO Categories ( EventID, categoryName, MaxParticipants, entryFee ) VALUES 
 -- Johannesburg City Marathon 
 (1, '42.2 KM Marathon', 1000, 350.00), 
