@@ -11,6 +11,7 @@ RoleName varchar(100) not null,
 constraint uQ_Role_RoleName unique(RoleName)
 );
 
+--viewing inside role table
 select * from [Roles];
 
 --creating table users
