@@ -1,6 +1,7 @@
 --creating a database--
 create  database RaceDay;
 
+--using a database
 use [RaceDay];
 
 --creating table Roles
