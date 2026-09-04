@@ -31,7 +31,7 @@ foreign key(RoleID) references Roles(RoleID)
 --viewing inside table users
 select * from [Users];
 
---create table Events--
+--create table Events.
 create table Events(
 EventID int primary key identity(1,1) not null,
 OrganiserID int not null,
