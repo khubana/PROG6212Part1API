@@ -163,6 +163,7 @@ INSERT INTO Results ( EnrolmentID, Position, FinishTime, Score ) VALUES
 (1, 1, '03:12:45', 100.00),
 (2, 2, '01:48:32', 90.00); 
 
+--viewing table results
 select * from [Results];
 
 --Displays participants, events and categories.
