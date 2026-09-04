@@ -158,7 +158,7 @@ INSERT INTO EventEnrolment ( EventID, partcipantsID, CategoryID, Status ) VALUES
 --viewing table eventenrolment
 select * from [EventEnrolment];
 
--- inserting values into results
+-- inserting values into results.
 INSERT INTO Results ( EnrolmentID, Position, FinishTime, Score ) VALUES 
 (1, 1, '03:12:45', 100.00),
 (2, 2, '01:48:32', 90.00); 
