@@ -100,6 +100,7 @@ constraint ck_Results_Position check (Position > 0),
 constraint ck_Results_Score check (score is null or score >=0)
 );
 
+--viewing table results
 select * from [Results];
 
 --INSETING VALUES IN ROLES
