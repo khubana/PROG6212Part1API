@@ -49,6 +49,7 @@ CONSTRAINT ck_Events_eventDate
 check (eventDate >= '2026-10-05')
 );
 
+--viewing table events
 select * from [Events];
 
 --creating table categories
