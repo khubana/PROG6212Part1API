@@ -155,6 +155,7 @@ INSERT INTO EventEnrolment ( EventID, partcipantsID, CategoryID, Status ) VALUES
 (2, 3, 4, 'Active'), 
 (3, 4, 7, 'Active');
 
+--viewing table eventenrolment
 select * from [EventEnrolment];
 
 -- inserting values into results
