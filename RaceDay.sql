@@ -83,6 +83,7 @@ constraint UQ_EventEnrolment_participants_event unique (partcipantsID, EventID )
 constraint ck_EventEnrolment_status check (status in('Active','Cancelled','Completed'))
 );
 
+--viewing table eventenrolment
 select * from [EventEnrolment];
 
 --creating table results
